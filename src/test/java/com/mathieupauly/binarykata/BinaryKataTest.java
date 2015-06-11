@@ -55,6 +55,6 @@ public class BinaryKataTest {
     if (n <= 1) {
       return Integer.toString(n);
     }
-    return binary(n / 2) + binary(n % 2);
+    return binary(n / 2) + Integer.toString(n % 2);
   }
 }

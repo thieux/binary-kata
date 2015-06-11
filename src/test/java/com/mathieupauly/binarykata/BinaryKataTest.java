@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class BinaryKata {
+public class BinaryKataTest {
 
   @Test
   public void zero() {

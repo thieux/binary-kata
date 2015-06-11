@@ -52,7 +52,7 @@ public class BinaryKataTest {
   }
 
   private String binary(int n) {
-    if (n <= 1) {
+    if (n < 2) {
       return Integer.toString(n);
     }
     return binary(n / 2) + Integer.toString(n % 2);
